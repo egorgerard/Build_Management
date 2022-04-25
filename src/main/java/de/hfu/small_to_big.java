@@ -16,6 +16,11 @@ public class small_to_big {
 
         System.out.println("Neue eingabe: "+ eingabe);
 
+        /* Javadoc Kommenter yeah*/
+        
+        /* Noch ein Java Doc Kommentar*/
+        
+        /* Und noch ein Javadoc Kommentar nochmal und nochmal*/
     }
 }
 
