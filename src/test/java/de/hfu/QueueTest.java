@@ -12,6 +12,16 @@ public class QueueTest {
         q.enqueue(30);
         assertTrue("Sollte 10 Herauswerfen", q.dequeue() == 10);
         assertTrue("Sollte die 30 auswerfen ", q.dequeue() == 30);
+        
+        /*
+        try {
+            fail("Ist nix mehr drinnen also kannst nicht mehr dequeuen.");
+            q.dequeue();
+        } catch (ArithmeticException e) {
+            //TODO: handle exception
+        }
+        */
+        
     }
 }
 
