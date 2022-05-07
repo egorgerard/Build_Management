@@ -81,7 +81,7 @@ public class ResidentRepositoryTest {
         }
     }
 
-    // Zwei mal die selben
+    // Gibt keinen Alonso
     @Test
     public void getUniqueResidentTestNotExistingName() throws ResidentServiceException {
         resident.setFamilyName("Alonso");
